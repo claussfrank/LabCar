@@ -118,3 +118,22 @@ nav .logoNav {
 .paddingCero{
     padding: 0;
 }
+/*imput y mapa*/
+
+.input {
+    color: white;
+    border: solid 1px;
+    border-color: white;
+    background-color: transparent;
+    margin: 2%; 
+}
+.contenedor-mapa {
+    border: solid 1px;
+    border-color: white;
+    margin: 2%;
+    padding: 5%;
+}
+
+iframe {
+  border-radius: 10px;
+}
