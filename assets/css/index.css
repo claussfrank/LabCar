@@ -26,15 +26,17 @@ nav .logoNav {
 
 /*seccion Imagen*/
 .imagenFondo{
-    position:absolute;
-    top: -1200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/taxiOk.png);
+   
 }
 .registro{
-    position:absolute;
-    right: 0;
-    top: 200px;
-    width: 500px;
-    height: 550px;
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right:0;
+    padding-right: 0;
+   
 }
 .estiloRegistro{
     background-color: #FFB300;
@@ -42,6 +44,7 @@ nav .logoNav {
     font-family:Helvetica;
     color: white;
     font-size:2vw;
+    
 }
 .estiloRegistro>spam>img{
     margin-left: 3%;
@@ -54,4 +57,64 @@ nav .logoNav {
 .estiloRegistro>p{
     font-size:1.5vw;
     text-align: center;
+}
+/*seccion iPhone*/
+
+.estiloiPhone{
+    background-color: #FFB300;
+    padding: 0%;
+    font-family:Helvetica;
+    color: white;
+    font-size:2vw;
+}
+.textoApp{
+    font-size:1.8vw;
+    text-align:left;
+}
+.textoApp>h6{
+    font-size:2.5vw;
+}
+.border{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-color:white;
+    padding: 3%;
+    margin-bottom: 3%;
+    margin-left:0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+/*sec cion conductor*/
+
+.imagenConductor{
+    background-repeat: no-repeat;
+    background-image: url(../img/ConductorOk.png);
+    padding: 0;   
+    
+}
+.bottonDos{
+    color: white;
+    background-color:#FFD54F; 
+    margin: 0;
+}
+.estiloConductor{
+    background-color:#283593;
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+    margin: 0;
+    
+}
+.textoConductor{
+    padding: 5%;
+    font-family:Helvetica;
+    color: white;
+    font-size:2vw;
+    
+}
+.textoConductor>h6{
+    font-size:2.5vw;
+}
+.paddingCero{
+    padding: 0;
 }
