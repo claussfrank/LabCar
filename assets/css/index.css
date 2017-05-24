@@ -126,14 +126,41 @@ nav .logoNav {
     border-color: white;
     background-color: transparent;
     margin: 2%; 
+    width: 250px;
 }
 .contenedor-mapa {
     border: solid 1px;
     border-color: white;
     margin: 2%;
-    padding: 5%;
+    padding: 2%;
 }
 
 iframe {
   border-radius: 10px;
+    
+}
+.footer{
+	padding-top: 5%;
+	background-color: #3e3f40;
+}
+
+footer a{
+	color: #fff;
+	font-size: .8em;
+}
+.margin-left{
+	margin-left: 5%;
+}
+.img-footer{
+	width: 65%;
+	padding-top: 10%;
+}
+.margin{
+	margin-top: 60%;
+}
+.btn-road{
+	margin: 5%;
+}
+.road{
+	margin-top: 8%;
 }
